@@ -22,12 +22,38 @@
     all:unset;
     background-color: aliceblue;
     width: 20vmax;
-    height:2.5vmax;
+    height:2vmax;
     border: 2px solid #ffffff;
     margin-left: 700px;
     padding-left: 15px;
-    border-radius:17px 20px 20px 0 ;
+    border-radius:15px 15px 15px 0 ;
 }
-img{
+.container{ 
+    color: #ffffff;
+    background-image: url(./essentials/ice-cream-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:50vmax;
     width:99vmax;
+    margin: 0%;
+}
+
+.container p{
+    margin-left: 3vmax;
+    font-weight:700;
+    font-size:7vmin;
+    word-spacing: 2vmin;
+}
+.container button{
+    margin-top:2vmax;
+    margin-left: 10vmax;
+    color :#000;
+    text-align: center;
+    background-color: #ffffff;
+    width: 15vmax;
+    height: 4vmax;
+    border: 2px solid #000;
+    border-radius: 15px 15px 15px 15px;
+    
+
 }
