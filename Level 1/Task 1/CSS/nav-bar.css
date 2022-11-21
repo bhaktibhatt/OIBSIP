@@ -40,6 +40,9 @@
 
 .search-bar:hover{
     background-color: #ffffff;
+}
+.search-ico{
+    display:none
 }       
 @media screen and (max-width:600px){
     .nav-bar{
@@ -47,12 +50,12 @@
     }
     .search-bar{
         display: none;
+        margin-right: 20vmax;
     }
-    .search{
-        background-image: url(../essentials/logo/search-icon.png);
-        background-repeat: no-repeat;
-        width: 30px;
-        margin:-1vmin 1vmin 0.5vmin 0;
-        padding: 20px;
+
+    .search-ico{
+        display: flex;
+        width:5vmin;
+        height:4vmin;
     }
 }
