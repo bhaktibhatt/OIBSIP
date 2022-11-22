@@ -4,10 +4,13 @@
     display: flex;
     justify-content: space-around;
     height:10vmin;
+    width:100vw;
+    position:fixed;
+    z-index: 10;
 }
-.nav-bar img{
+.ice-logo{
     margin:0%;
-    height: 7vmin;
+    height: 7vmin; 
 }
 .nav-bar div{
     display: flex;
@@ -42,7 +45,7 @@
     background-color: #ffffff;
 }
 .search-ico{
-    display:none
+    display:none;
 }       
 @media screen and (max-width:600px){
     .nav-bar{
@@ -55,7 +58,7 @@
 
     .search-ico{
         display: flex;
-        width:5vmin;
-        height:4vmin;
+        width:7vmin;
+        height:7vmin;
     }
 }
