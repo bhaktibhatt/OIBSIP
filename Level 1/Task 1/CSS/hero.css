@@ -52,6 +52,7 @@
     .container h2{
         padding-top: 10vmin;
         color:#000;
+        margin-bottom: 9vh;
     }
     .container button{
         margin-top: 15vmin;
@@ -61,5 +62,7 @@
         flex-direction: column;
         align-items: center;
         left:15vw;
+        top:1vh;
+        
     }
 }
