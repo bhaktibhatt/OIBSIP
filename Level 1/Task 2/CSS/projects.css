@@ -7,6 +7,7 @@
     color:white;
     background: rgb(108,74,182);
     background: linear-gradient(180deg, rgba(108,74,182,1) 0%, rgba(172,138,250,1) 35%, rgba(188,111,241,1) 100%);
+<<<<<<< HEAD
     margin-top: 40px;
     padding-top:200px;
 
@@ -14,6 +15,13 @@
 .projects p{
     font-size: 40px;
 }
+=======
+    margin-top: 213px;
+    padding-top:100px;
+
+}
+
+>>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
 
 /* .projects hr{
     position: absolute;
@@ -57,7 +65,10 @@
     transform: translateX(150px);
 }
 .project-card p{
+<<<<<<< HEAD
     font-size: 30px;
+=======
+>>>>>>> a33c2d1848eb7c43847a61b1b5aff8629f526cd7
     padding-bottom: 10px; 
 }
 
